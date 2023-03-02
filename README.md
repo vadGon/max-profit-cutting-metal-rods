@@ -27,6 +27,7 @@ Sample Input#00
 26
 103
 59
+
 Sample Output#00
 1770
 
