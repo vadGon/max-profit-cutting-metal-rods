@@ -14,10 +14,11 @@ Third line contains L, the number of rods Mr. Octopus has, followed by L integer
 Output Format
 Print the result corresponding to the testcase.
 
-Constraints
-1 <= metal_price, cost_per_cut <= 1000
+Constraints:
+
+1 <= metalPrice, costPerCut <= 1000
+L[i] is in [1, 10000] (Each element of lenghts will lie in range 1 .... 10000)
 1 <= L <= 50
-Each element of lenghts will lie in range [1, 10000].
 
 Sample Input#00
 
@@ -29,6 +30,7 @@ Sample Input#00
 59
 
 Sample Output#00
+
 1770
 
 Explanation Here cuts are pretty cheap. So we can make large number of cuts to reduce the amount of wood wasted. Most optimal lengths of rods will be . So we will cut  pieces of length  from  rod, and throw peice of length  from it. Similarly we will cut  pieces of length  from  rod and throw away a piece of length . From  rod, we will cut  pieces of length  and throw a piece of length . So in total we have  pieces of length  and we have made  cuts also. So total profit is 
@@ -42,6 +44,7 @@ Sample Input#01
 59
 
 Sample Output#01
+
 1230
 
 Explanation Here we will throw smallest rod entirely and cut the pieces of length 51 from both left. So profit is 
